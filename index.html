@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sua Página</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <h2>Olá, eu sou</h2>
+        <h1>Yasmin Padilha</h1>
+        <h2 id="backend">Back-end developer</h2>
+
+        <div id="menu">
+          <a href="arquivos/curriculo.pdf" download="curriculo.pdf">Currículo</a>
+          <a href="arquivos/linux.pdf" download="certificado.pdf">Certificado</a>
+        </div>
+    </header>
+
+    <section id="sobremim">
+        
+        <h2>SOBRE MIM</h2>
+        <p>Meu nome é Yasmin Cristina Padilha, tenho 18 anos e sou estudante de Análise e Desenvolvimento 
+          de Sistemas na Fatec São José dos Campos. Estou sempre em busca de aprendizado contínuo, com foco 
+          no desenvolvimento de tecnologias voltadas para o back-end, área na qual pretendo me especializar. 
+          Tenho estudado linguagens como Python e Java e, com a experiência adquirida até o momento, 
+          me interessei também pelo desenvolvimento de aplicações mobile e pelo campo de cybersegurança.
+        </p>
+        <h2>OBJETIVO</h2>
+        <p>Meu objetivo é me especializar em desenvolvimento back-end, focando em tecnologias como Python 
+          e Java, com o intuito de criar soluções eficientes e escaláveis. Busco aplicar meus conhecimentos 
+          para contribuir ativamente no desenvolvimento de sistemas e projetos, sempre focando em aprimorar 
+          minhas habilidades técnicas e me manter atualizada com as novas tendências e desafios da área de 
+          tecnologia.</p>
+
+    </section>
+
+    <div id="faixa"></div>
+
+    <section id="projetos">
+        <h1>Projetos</h1>
+        
+        <div id="cards">
+
+          <div class="card">
+            <div class="card-body">
+              <h4 class="card-title">API 1 SEMESTRE</h4>
+              <p class="card-text">Projeto de aprendizagem integrado</p>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal" id="abrirmodal">Saiba mais</button>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-body">
+              <h4 class="card-title">UNIVERSIDADE VG</h4>
+              <p class="card-text">Projeto de desenvolvimento web.</p>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal" id="abrirmodal">Saiba mais</button>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-body">
+              <h4 class="card-title">HOUSE OF MEMORIES</h4>
+              <p class="card-text">Projeto de desenvolvimento web.</p>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal" id="abrirmodal">Saiba mais</button>
+            </div>
+          </div>
+
+            
+        </div>
+          
+          <div class="modal" id="myModal">
+            <div class="modal-dialog">
+              <div class="modal-content">
+          
+                <div class="modal-header">
+                  <h4 class="modal-title">API 1 SEMESTRE</h4>
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+          
+                <div class="modal-body">
+                  O objetivo deste projeto foi criar um site institucional multi-página para uma empresa fictícia, 
+                  com foco na apresentação de informações sobre a empresa, seus produtos/serviços e uma área de contato. 
+                  A implementação do site envolveu a utilização de HTML para estruturação do conteúdo e CSS para o design 
+                  e estilização, com o propósito de proporcionar uma navegação clara e agradável para o usuário.
+                </div>
+          
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                </div>
+          
+              </div>
+            </div>
+          </div>
+
+    </section>
+
+</body>
+
+</html>
